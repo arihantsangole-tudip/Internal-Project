@@ -1,0 +1,75 @@
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	
+	font-size:30px
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+      width:100%;
+    align:center;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    align:center;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:15px;	 	 
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  font-family:verdana;
+  font-size:25px;
+  width: 120px;
+  margin: 5px;
+}
+ul#menu {
+background-color:black;
+
+    padding: 5px;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+</style>
